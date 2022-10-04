@@ -50,17 +50,13 @@ $ Python filename.py
 ## Sample Screenshot
 ![UPLOAD](https://user-images.githubusercontent.com/114949310/193858166-fe7e7e1a-012a-4aae-b75d-7c02df10ed91.JPG)
 
-## Code
+## Sample Code
 
 To deploy this project use
 
 ```Python
-import pandas as pd
-import numpy as np
-import openpyxl as op
-import os
-import xlsxwriter
 
+---------------------------
    ###Enter file path in below from where you are fetching the master file
 
 file = ("C:\\Users\\Demo\\Data\\masterfile.xlsx")
@@ -78,8 +74,7 @@ for ws in worksheets:
     df = pd.read_excel(file,sheet_name=ws,engine = 'openpyxl')
     df.to_excel(excelWriter, sheet_name = ws, index = False,engine = 'openpyxl')
     excelWriter.save()
-
-print("Process completed, Please visit the provided location to get the required files....")
+----------------------------
 ```
 
 ## Project Leaders

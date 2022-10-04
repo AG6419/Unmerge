@@ -46,6 +46,9 @@ $ Python filename.py
 - OpenPyxl
 - xlrdwriter
  For installation procedure of Python and its packages, please refer internet.
+ 
+## Sample Screenshot
+![UPLOAD](https://user-images.githubusercontent.com/114949310/193858166-fe7e7e1a-012a-4aae-b75d-7c02df10ed91.JPG)
 
 ## Code
 

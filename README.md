@@ -44,7 +44,7 @@ $ Python filename.py
 2) In case you want to use the program directly, then only Python needs to be installed in the system and below following packages
  - Panadas
 - OpenPyxl
-- xlrdwriter
+- xlrdwriter, 
  For installation procedure of Python and its packages, please refer internet.
  
 ## Sample Screenshot
